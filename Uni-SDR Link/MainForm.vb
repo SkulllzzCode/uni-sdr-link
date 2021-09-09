@@ -185,7 +185,7 @@ Public Class MainForm
 
             statusText = "VFO-" + friendlyVFO + " tuned to " + outputFreq
 
-            outputStream = serialOutputEOL & "F" & friendlyVFO & outputFreq & serialOutputEOL
+            outputStream = "F" & friendlyVFO & outputFreq & serialOutputEOL
 
 
             Console.WriteLine("outputStream = " & outputStream)
